@@ -1,5 +1,6 @@
 package de.laparudi.timemachine.listener;
 
+import de.laparudi.timemachine.CytooxienTimeMachine;
 import de.laparudi.timemachine.registry.LoreRegistry;
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
 import net.minecraft.core.component.DataComponents;
@@ -11,6 +12,7 @@ public class ItemTooltipListener {
 
     public static void register() {
         ItemTooltipCallback.EVENT.register( (itemStack, context, flag, lines) -> {
+            if (!CytooxienTimeMachine.CXN) return;
             final CustomModelData data = itemStack.get(DataComponents.CUSTOM_MODEL_DATA);
             if (data == null || data.floats().isEmpty()) return;
 
