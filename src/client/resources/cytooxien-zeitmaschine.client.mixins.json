@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "de.laparudi.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+      "de.laparudi.timemachine.mixin.client.ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "cytooxien-zeitmaschine",
+	"version": "${version}",
+	"name": "Cytooxien Zeitmaschine",
+	"description": "Zeitstempel für exklusive Items auf Cytooxien",
+	"authors": [
+		"LapaRudi"
+	],
+	"contact": {
+		"homepage": "https://cytooxien.de/",
+		"sources": "https://github.com/LapaRudi/Cytooxien-Zeitmaschine"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cytooxien-zeitmaschine/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"de.laparudi.timemachine.CytooxienTimeMachine"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
