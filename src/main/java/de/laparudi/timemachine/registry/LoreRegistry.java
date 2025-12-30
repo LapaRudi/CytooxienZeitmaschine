@@ -30,7 +30,6 @@ public class LoreRegistry {
         
         // Neujahr 2023
         register(1001395, Items.LEATHER_HORSE_ARMOR, Event.NEW_YEAR, 2023); // Weinflasche
-        register(1100241, Event.NEW_YEAR, 2023); // Neujahrshut
         
         // Valentinstag 2023
         register(1001458, Items.LEATHER_HORSE_ARMOR, Event.VALENTINES_DAY, 2023); // Teddybär mit Herz
@@ -57,9 +56,6 @@ public class LoreRegistry {
         register(1100302, Event.CHRISTMAS_ROD, 2023); // Piglin Barbar
         registerMulti(1100295, 3, Event.CHRISTMAS_ROD, 2023); // Ravager, Pillager, Blaze
         
-        // Neujahr 2024
-        register(1100309, Event.NEW_YEAR, 2024); // Neujahrshut 2024
-        
         // Ostern 2024
         registerMulti(1100407, 10, Event.EASTER, 2024); // Eier
         register(1100255, Event.EASTER, 2024); // Rankenhut
@@ -82,12 +78,8 @@ public class LoreRegistry {
         register(1100287, Event.CHRISTMAS_ROD, 2024); // Warden
         register(1100679, Event.CHRISTMAS_ROD, 2024); // Pilzkuh
         
-        // Neujahr 2025
-        register(1100780, Event.NEW_YEAR, 2025); // Neujahrshut
-        
         // Valentinstag 2025
-        register(1100815, Event.VALENTINES_DAY, 2); // type2 // TODO
-        register(1100816, Event.VALENTINES_DAY, 1); // type1
+        register(1100816, Event.VALENTINES_DAY, 2025); // type1
         
         // Ostern 2025
         register(1100853, Event.EASTER, 2025); // Sonnenblumen-Hut
